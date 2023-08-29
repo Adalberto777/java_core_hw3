@@ -21,7 +21,7 @@ public class Main {
         }
         System.out.println();
 
-        changeSalaryByAgeMulti(workers, 45, 5000);
+        changeSalaryByAgeMulti(workers, 0, 5000);
         for (int i = 0; i < NUMBER_OF_WORKER; i++) {
             workers[i].printInfo();
         }
